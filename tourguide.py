@@ -8,7 +8,7 @@ st.title("Get your tour guidance")
 def generate_tour(place, days, budget):
     try:
         # Configure API key
-        genai.configure(api_key="AIzaSyAtuXVteDzKLvflxgiVpN_6hVuLsLwcITc")
+        genai.configure(api_key="")#gemini  api key
 
         # Create the model
         generation_config = {
